@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 10, 2024
+ *      Author: Rahul B.
+ */
+
+
+#include <stdio.h>
+#include "math.h"
+
+int main(){
+
+	printf("Add : %d\n", add(25,45));
+	printf("Substration  : %d\n", sub(25,45));
+	printf("Multiplication : %d\n", mul(25,45));
+	printf("Division  : %d\n", div(25,45));
+
+	printf("Press 'Enter' to exit this application");
+	getchar();
+	return 0;
+}
+
+

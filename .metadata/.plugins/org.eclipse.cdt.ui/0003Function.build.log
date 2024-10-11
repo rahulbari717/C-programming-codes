@@ -1,0 +1,15 @@
+12:08:51 **** Build of configuration Debug for project 0003Function ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 0003Function
+Invoking: GCC C Linker
+gcc  -o "0003Function" ./main.o   
+Finished building target: 0003Function
+ 
+
+12:08:53 Build Finished. 0 errors, 0 warnings. (took 2s.213ms)
+
